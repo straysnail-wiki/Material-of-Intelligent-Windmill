@@ -113,7 +113,7 @@ void SerialRead()
         Serial.print("butterfly");
         Serial.println(seek_mr);
         digitalWrite(INA, HIGH); 
-        analogWrite(ENA, seek_ml); 
+        analogWrite(ENA, seek_mr); 
       }
     }
     
